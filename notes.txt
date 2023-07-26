@@ -1,0 +1,3 @@
+#success = 0 ou 1 -> soit ça passe, soit ça passe pas
+#result = valeur retournée par la commande
+#matches = permet de tester un scoreboard à valeur fixe
