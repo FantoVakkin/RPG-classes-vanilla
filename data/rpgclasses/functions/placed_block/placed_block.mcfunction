@@ -1,1 +1,1 @@
-execute if data storage smithed.custom_block:main blockApi.__data.Items[0].tag.smithed.block{from:"fantovakkin:rpgclasses"} run function rpgclasses:placed_block/placed_block.rpgclasses
+execute if data storage smithed.custom_block:main blockApi.__data.Items[0].tag.smithed.block{from:"fantovakkin:rpgclasses"} align y run function rpgclasses:placed_block/placed_block.rpgclasses
