@@ -1,0 +1,1 @@
+damage @s 8 in_fire

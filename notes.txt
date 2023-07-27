@@ -1,3 +1,5 @@
-#success = 0 ou 1 -> soit ça passe, soit ça passe pas
-#result = valeur retournée par la commande
-#matches = permet de tester un scoreboard à valeur fixe
+success = 0 ou 1 -> soit ça passe, soit ça passe pas
+result = valeur retournée par la commande. Exemple : si on fait /clear, on nous donne un retour, même si on détruit 0 items
+matches = permet de tester un scoreboard à valeur fixe
+
+placed_block.mcfunction sert à détecter que le bloc posé est un bloc custom de notre datapack et non d'un autre (évite les conflits avec d'autres datapacks)
