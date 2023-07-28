@@ -1,0 +1,1 @@
+execute align y run summon marker ~ ~ ~ {Tags:["rpgclasses.traps","smoke_trap"]}
