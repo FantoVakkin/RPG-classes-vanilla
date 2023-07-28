@@ -1,1 +1,0 @@
-summon marker ~ ~ ~ {Tags:["rpgclasses.traps","fire_trap"]}

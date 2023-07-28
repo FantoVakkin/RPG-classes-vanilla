@@ -1,3 +1,5 @@
+dans cmd.txt on a nos codes pour chaque élément du datapack qui doit avoir un ModelCustomData ayant pour base notre n° identifiant : 550
+
 success = 0 ou 1 -> soit ça passe, soit ça passe pas
 result = valeur retournée par la commande. Exemple : si on fait /clear, on nous donne un retour, même si on détruit 0 items
 matches = permet de tester un scoreboard à valeur fixe

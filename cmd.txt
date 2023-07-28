@@ -1,0 +1,10 @@
+base:
+    FantoVakkin : 550
+    datapack : 01
+
+warped_fungus_on_a_stick : 
+    dagger : 01
+    fightingstaff : 02
+furnace :
+    freezing_trap : 01
+    fire_trap : 02

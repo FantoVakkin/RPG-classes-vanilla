@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:5500101}"
+        },
+        "title": "RPG Classes Vanilla",
+        "description": "Minecraft DataPack",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:fantovakkin",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
