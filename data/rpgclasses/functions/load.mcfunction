@@ -12,11 +12,15 @@ data modify storage rpgclasses:items data.trap.smoke set value {id:    "minecraf
 #rajouter traps camouflables dans les biomes enneigés (remplacer tripwire par snow ?)
 
 scoreboard objectives add rpgclasses.rightclick used:warped_fungus_on_a_stick
+#scoreboard pour détecter que le joueur sneak pour appliquer des conditions différentes pour l'invisibilité
+scoreboard objectives add rpgclasses.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add rpgclasses.data dummy
 scoreboard objectives add rpgclasses.cooldown dummy
+#scoreboard pour détecter le nombre de pv actuel du joueur si c'est un barbare
+scoreboard objectives add rpgclasses.health health
 
 schedule function rpgclasses:4t 4t
 
 #define storage rpgclasses:items
 
-advancement revoke @a only rpgclasses:stealthroguehit
+advancement revoke @a only rpgclasses:player_hurt_entity
