@@ -3,6 +3,9 @@ execute as @a[tag=rpgclasses.rogue.invisiblity,predicate=!rpgclasses:daggerbuff/
 execute as @a[tag=rpgclasses.monk.block,predicate=!rpgclasses:fightingstaffblock/fightingstaffblock] run function rpgclasses:dagger/revoke
 execute as @e[type=marker,tag=rpgclasses.traps] at @s run function rpgclasses:trap/4t
 
+execute as @a[scores={rpgclasses.fire_tick=1..}] at @s run function rpgclasses:trap/fire_tick
+
 scoreboard players remove @a[scores={rpgclasses.cooldown=1..}] rpgclasses.cooldown 1
 
 schedule function rpgclasses:4t 4t
+#execute if block ~ ~ ~ #

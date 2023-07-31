@@ -1,7 +1,49 @@
 dans cmd.txt on a nos codes pour chaque élément du datapack qui doit avoir un ModelCustomData ayant pour base notre n° identifiant : 550
 
-success = 0 ou 1 -> soit ça passe, soit ça passe pas
-result = valeur retournée par la commande. Exemple : si on fait /clear, on nous donne un retour, même si on détruit 0 items
-matches = permet de tester un scoreboard à valeur fixe
+success = 0 ou 1 -> soit ça passe, soit ça passe pas. Dans tous les cas, c'est un score
+result = valeur retournée par la commande. Exemple : si on fait /clear, on nous donne un retour, même si on détruit 0 items. Dans tous les cas, c'est un score
+matches = permet de tester un scoreboard à valeur fixe, donc un nombre
+si matches = 0, alors c'est égal au score
+si matches = 1, alors ce n'est pas égal au score (c'est l'inverse de ce qu'on pourrait penser)
 
 placed_block.mcfunction sert à détecter que le bloc posé est un bloc custom de notre datapack et non d'un autre (évite les conflits avec d'autres datapacks)
+
+--------------------------------------------------
+
+Dictionnaire = {}
+exemple de dictionnaire : tellraw, 
+Index d'un dictionnaire = strings ("texte")
+
+Array (tableau) = []
+Index d'un array = integer (nombre) : (123)
+
+---------------------------------------------------
+
+Array = ["pomme", "poire","pêche",123]
+Dictionnaire = {"name":"pêche","Count":14}
+
+print(Array[2]) #result = pêche
+print(Dictionnaire["Count"]) #result = 14
+
+Dans l'exemple, pêche correspond normalement à 3, mais est appelé avec 2 car on commence à compter à partir de 0.
+Donc pomme serait appelé avec print(Array[0])
+
+Dans un Array, les choses ont un nombre
+Dans un Dictionnaire, les choses ont un nom
+
+
+---------------------------------------------------------------------
+
+commande tellraw importante
+tellraw @a[tag=convention.debug] {"score":{"name":"#temp","objective":"rpgclasses.data"}}
+
+
+#temp est une variable temporaire
+
+------------------------------------------------------------------------
+
+
+
+Pour un tellraw, on peut utiliser la forme suivante :
+tellraw @s {"text":"message"}
+On a donc un dictionnaire (tellraw) dans lequel on met un strings (texte) de type "text" 

@@ -22,7 +22,8 @@
                 "location": {
                     "block": {
                         "blocks": [
-                            "minecraft:tall_grass"
+                            "minecraft:tall_grass",
+                            "minecraft:large_fern"
                         ]
                     }
                 }

@@ -1,14 +1,10 @@
-[
-    {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "predicate": {},
-        "scores": {
-            "{rpgclasses.health=3}"
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "health": {
+            "min": 10,
+            "max": 30
         }
-    },
-    {
-        "condition": "reference",
-        "name": "rpgclasses:barbarian_buff/health_check"
     }
-]
+}
