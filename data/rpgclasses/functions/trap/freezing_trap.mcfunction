@@ -10,3 +10,4 @@ effect give @s weakness 4 4 true
 effect give @s weakness 2 6 true
 effect give @s mining_fatigue 5 6 true
 damage @s 2 freeze
+function rpgclasses:adv/hurt_by_entity

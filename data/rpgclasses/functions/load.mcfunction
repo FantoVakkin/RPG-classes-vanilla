@@ -16,6 +16,7 @@ scoreboard objectives add rpgclasses.rightclick used:warped_fungus_on_a_stick
 scoreboard objectives add rpgclasses.data dummy
 scoreboard objectives add rpgclasses.cooldown dummy
 scoreboard objectives add rpgclasses.fire_tick dummy
+scoreboard objectives add rpgclasses.use dummy
 scoreboard players set #time_between_fire_damages rpgclasses.data 30
 #scoreboard pour détecter le nombre de pv actuel du joueur si c'est un barbare
 scoreboard objectives add rpgclasses.health health
@@ -23,9 +24,4 @@ scoreboard objectives add rpgclasses.health health
 schedule function rpgclasses:4t 4t
 
 #define storage rpgclasses:items
-
-advancement revoke @a only rpgclasses:player_hurt_entity
-
-
-
 #define entity @a[tag=convention.debug]
