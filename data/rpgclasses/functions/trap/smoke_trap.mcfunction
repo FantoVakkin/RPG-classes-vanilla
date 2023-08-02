@@ -1,3 +1,5 @@
+## function rpgclasses:trap/trigger
+
 particle campfire_cosy_smoke ~ ~1 ~ 1 .5 1 0.01 10
 particle campfire_cosy_smoke ~ ~1 ~ 1 .5 1 0.01 10
 particle campfire_cosy_smoke ~ ~1 ~ 1 .5 1 0.01 10

@@ -1,3 +1,5 @@
+## function rpgclasses:dagger/revoke/all
+
 effect clear @s invisibility
 execute store result score #temp rpgclasses.data if predicate rpgclasses:daggerbuff/tall_grass
 #on exécute le #temp rpgclsses.data, PUIS on exécute le scoreboard sur le joueur, donc pas de @s après le score.

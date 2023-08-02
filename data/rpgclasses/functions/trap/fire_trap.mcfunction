@@ -1,3 +1,5 @@
+## function rpgclasses:trap/trigger
+
 particle minecraft:flame ~ ~.2 ~ .2 .2 .2 0.005 10
 particle minecraft:flame ~ ~1 ~ .2 .2 .2 0.005 7
 #summon area_effect_cloud ~ ~ ~ {Radius:1,Fire:40,Duration:40}
@@ -10,3 +12,5 @@ function rpgclasses:adv/hurt_by_entity
 #setblock ~ ~ ~ fire[age=3]
 #fill ~ ~1 ~ ~ ~1 ~ cobweb
 #fill ~ ~1 ~ ~ ~1 ~ fire[age=3]
+
+function rpgclasses:trap/fire_tick

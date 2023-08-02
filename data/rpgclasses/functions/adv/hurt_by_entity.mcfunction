@@ -1,5 +1,11 @@
 ## advancement rpgclasses:entity_hurt_player
 
+## function rpgclasses:trap/bear_trap
+## function rpgclasses:trap/caltrops
+## function rpgclasses:trap/explosive_trap
+## function rpgclasses:trap/fire_trap
+## function rpgclasses:trap/freezing_trap
+
 #Make reusable
 advancement revoke @s only rpgclasses:entity_hurt_player
 

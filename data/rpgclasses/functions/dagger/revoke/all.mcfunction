@@ -1,3 +1,7 @@
+## function rpgclasses:adv/hurt_by_entity
+
+## function rpgclasses:4t/change_classe/loose/rogue
+
 ## function rpgclasses:adv/hurtentity
 
 function rpgclasses:dagger/revoke/attack
