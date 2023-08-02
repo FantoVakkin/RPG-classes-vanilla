@@ -28,4 +28,4 @@ for a in x_range:
             )
 
 
-input(json.dumps(d, indent=4))
+print(json.dumps(d, indent=4))
