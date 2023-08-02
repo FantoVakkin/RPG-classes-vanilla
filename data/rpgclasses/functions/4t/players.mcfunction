@@ -1,3 +1,5 @@
+## function rpgclasses:4t
+
 #reduce cooldown
 execute if score @s rpgclasses.cooldown matches 1.. run scoreboard players remove @s rpgclasses.cooldown 1
 

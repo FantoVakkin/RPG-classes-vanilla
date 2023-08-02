@@ -1,0 +1,4 @@
+0: no class
+1: rogue
+2: monk
+3: barbarian
