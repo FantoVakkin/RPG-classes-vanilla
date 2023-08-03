@@ -1,11 +1,11 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "mainhand": {
-                "nbt": "{rpgclasses:{fightingstaff:1b}}"
-            }
-        }
-    }
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"nbt": "{rpgclasses:{fightingstaff:1b}}"
+			}
+		}
+	}
 }

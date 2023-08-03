@@ -1,0 +1,18 @@
+{
+	"files.exclude": {
+		"**/__pycache__/": true,
+		"LICENSE": true,
+		".vscode/": true
+	},
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": true,
+	"datapack.env.detectionDepth": 2,
+	"datapack.env.cmdVersion": "1.20",
+	"datapack.env.dataVersion": "1.20",
+	"[mcfunction]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.detectIndentation": true
+	}
+}

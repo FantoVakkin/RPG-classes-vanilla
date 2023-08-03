@@ -1,33 +1,33 @@
 {
-    "condition": "any_of",
-    "terms": [
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "location": {
-                    "light": {
-                        "light": {
-                            "min": 0,
-                            "max": 3
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:tall_grass",
-                            "minecraft:large_fern"
-                        ]
-                    }
-                }
-            }
-        }
-    ]
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"light": {
+						"light": {
+							"min": 0,
+							"max": 3
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:tall_grass",
+							"minecraft:large_fern"
+						]
+					}
+				}
+			}
+		}
+	]
 }

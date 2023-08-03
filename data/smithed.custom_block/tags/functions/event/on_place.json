@@ -1,6 +1,6 @@
 {
-    "values": [
-        "#smithed.crafter:block/place",
-        "rpgclasses:placed_block/placed_block"
-    ]
+	"values": [
+		"#smithed.crafter:block/place",
+		"rpgclasses:placed_block/placed_block"
+	]
 }
