@@ -1,7 +1,5 @@
 ## function rpgclasses:4t/change_classe/trigger
 
-## function rpgclasses:4t/change_classe/trigger
-
 #lose the old class
 execute if score @s rpgclasses.old_class matches 1 run function rpgclasses:4t/change_classe/loose/rogue
 execute if score @s rpgclasses.old_class matches 2 run function rpgclasses:4t/change_classe/loose/monk
