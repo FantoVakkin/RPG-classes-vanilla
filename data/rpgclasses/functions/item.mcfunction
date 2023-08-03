@@ -17,4 +17,6 @@ data modify storage rpgclasses:items data.trap.smoke set value {id:    "minecraf
 
 #book
 data modify storage rpgclasses:items data.class_book set value {id: "minecraft:written_book", Count: 1b, Slot:16b, tag: {ctc: {from: "fantovakkin:rpgclasses", id: "class_book",traits: {"book": 1b}}, rpgclasses: {class_book:1b}, HideFlags: 1, generation: 3, author: "Fanto Vakkin", title: "Book of classes", display: {Name: '[{"text": "Book of classes","italic":false,"color": "yellow"}]', Lore: ['[{"text": "This book allow you to change your class","italic":false,"color": "yellow"}]','{"text": "rpg_classes","color": "blue"}']}}}
-data modify storage rpgclasses:items data.class_book.pages set value []
+data modify storage rpgclasses:items data.class_book.pages set value ['["",{"text":"Change class\\n\\n"},{"text":"Become Rogue","clickEvent":{"action":"run_command","value":"trigger rpg_classe set 1"}},{"text":"\\n\\n"},{"text":"Become Monk","clickEvent":{"action":"run_command","value":"trigger rpg_classe set 2"}},{"text":"\\n\\n"},{"text":"Become Barbarian","clickEvent":{"action":"run_command","value":"trigger rpg_classe set 3"}},{"text":"\\n\\n "}]']
+#dans les crochets de la ligne ci-dessus, on colle le texte qu'on aura copié depuis MC.tool, qui sera inscrit dans le livre de classe
+#/give @p written_book{pages: <à copier> ,title:Book,author:"http://minecraft.tools/"}
