@@ -9,3 +9,6 @@ execute unless score @s rpg_classe matches 0..3 run scoreboard players operation
 
 #actualise old class
 scoreboard players operation @s rpgclasses.old_class = @s rpg_classe
+
+#re-enable the /trigger if the player still has the book
+tag @s remove rpgclasses.trigger

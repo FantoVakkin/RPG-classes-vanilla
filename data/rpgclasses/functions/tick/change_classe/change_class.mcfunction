@@ -1,7 +1,7 @@
 ## function rpgclasses:tick/change_classe/trigger
 
 # disapear after 1 change
-clear @s written_book{ctc:{from:"fantovakkin:rpgclasses", id: "class_book"}} 1
+clear @s[gamemode=!creative] written_book{ctc:{from:"fantovakkin:rpgclasses", id: "class_book"}} 1
 
 #lose the old class
 execute if score @s rpgclasses.old_class matches 1 run function rpgclasses:tick/change_classe/loose/rogue

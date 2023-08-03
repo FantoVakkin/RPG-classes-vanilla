@@ -1,3 +1,3 @@
 ## function rpgclasses:tick/change_classe/change_class
 
-function rpgclasses:dagger/revoke/all
+execute if entity @s[tag=rpgclasses.rogue.invisiblity] run function rpgclasses:dagger/revoke/all

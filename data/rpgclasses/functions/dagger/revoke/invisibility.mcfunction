@@ -9,4 +9,3 @@ execute if score #temp rpgclasses.data matches 1 run scoreboard players set @s r
 #le matches 0 est bien détecté
 execute if score #temp rpgclasses.data matches 0 run scoreboard players set @s rpgclasses.cooldown 15
 tellraw @a[tag=convention.debug] {"score":{"name":"#temp","objective":"rpgclasses.data"}}
-say invi
