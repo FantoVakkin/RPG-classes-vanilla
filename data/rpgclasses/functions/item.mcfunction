@@ -1,3 +1,4 @@
+say item
 ## function rpgclasses:load
 
 #items
