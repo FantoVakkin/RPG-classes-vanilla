@@ -8,7 +8,6 @@ execute if score @s rpgclasses.fire_tick matches 1.. run function rpgclasses:tra
 
 #trigger
 execute if score @s rpgclasses.rightclick matches 1.. run function rpgclasses:right_click
-execute unless score @s rpg_classe = @s rpgclasses.old_class run function rpgclasses:4t/change_classe/trigger
 
 #class
 execute if score @s rpg_classe matches 1 run function rpgclasses:4t/class/rogue/main
