@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:goat_horn",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"source": {
+								"type": "storage",
+								"source": "rpgclasses:items"
+							},
+							"ops": [
+								{
+									"op": "merge",
+									"source": "data.warhorn.tag",
+									"target": "{}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
