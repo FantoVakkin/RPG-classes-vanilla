@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "rpgclasses:book_in_hand/mainhand"
+		},
+		{
+			"condition": "reference",
+			"name": "rpgclasses:book_in_hand/offhand"
+		}
+	]
+}
